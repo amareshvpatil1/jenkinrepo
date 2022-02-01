@@ -8,7 +8,7 @@ def status = "Success"
         withCredentials([
 
             
-                $class		: 'UsernamePasswoedMultiBinding',
+                $class		: 'UsernamePasswordMultiBinding',
                 credentialsId	: 'git-integration',
                 passwordVariable: 'GIT_PASSWORD',
                 usernameVariable: 'GIT_USER'
